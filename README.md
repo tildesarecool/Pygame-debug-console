@@ -1,6 +1,23 @@
 # Pygame debug console
 My attempt at a pygame debug console for future use
 
+I got the examples originally from the examples portion of the pygame github:
+https://github.com/pygame/
+
+
+The "ultimate goal" is to insert the text input/output functionality from the pygame example script 
+*textinput.py*
+I want to use this feature to send in attributes. 
+
+For instance a hotkey to bring up this text input, then issue a command for a specific circle to set a diffrent color or a new location.
+
+Well I haven't worked out all the details yet, it's a work in progress. 
+
+
+
+
+---
+
 My first task turned out to be unrelated: use hex representations of RGB rather decimal.
 
 Turns out it wasn't very hard:
