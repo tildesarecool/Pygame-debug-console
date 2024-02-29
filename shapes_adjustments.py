@@ -19,7 +19,7 @@ ACCELLERATION = 0.5
 dsp = pyg.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT)) # also known as the "surface"
 clock = pyg.time.Clock()
 
-def colorHexToDec(hex_color) -> str:
+def colorHexToDec(hex_color) -> tuple:
     red = int(hex_color[0:2], 16)
     green = int(hex_color[2:4], 16)
     blue = int(hex_color[4:6], 16)      
